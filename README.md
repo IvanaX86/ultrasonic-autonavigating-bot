@@ -115,4 +115,4 @@ The 7447 BCD decoders were the right call — offloading segment logic to hardwa
 
 ## Building
 
-Compile with XC8 for the respective PIC targets. Fuse settings are in the `#pragma config` lines at the top of each file.
+Compile with XC8 compiler for the respective PIC targets. Fuse settings are in the `#pragma config` lines at the top of each file.
