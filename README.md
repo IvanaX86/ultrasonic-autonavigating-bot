@@ -36,7 +36,7 @@ DP ─────┘   └─┘ └─┘ └─┘ └─┘ └────�
 ## How It Works
 
 1. Bot starts, waits 5 seconds for both processors to initialise
-2. Moves forward, checking ultrasonic range every second
+2. Moves forward, checking ultrasonic range multiple times every second (1 pulse every 61ms or so
 3. If obstacle detected within 30cm:
    - Tries turning right up to 47°
    - If still blocked, tries left instead
