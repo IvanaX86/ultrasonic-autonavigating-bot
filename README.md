@@ -62,7 +62,7 @@ x = arccos(20/30) ≈ 48°
 - 2× 7-segment displays with BCD decoder ICs (one for tens, one for units)
 - Tens digit only uses 2 input pins — UK ambient temperature won't exceed 39°C
 - 2 4MHz crystal oscillators
-- Decoupling capacitors (100nF ceramic + 100µF electrolytic)
+- Decoupling capacitors (2x 100pF ceramic + 2x 22µF electrolytic)
 - Breadboard, jumper wires, the usual
 
 ## Constraints
